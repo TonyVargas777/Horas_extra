@@ -52,8 +52,12 @@ const DayList = ({ selectedMonth, daysData, setDaysData }) => {
                 </div>
             ))}
             <br />
-            <div>* Rellenar los campos con los números de los empleados separados por guiones.</div>
-            <div>* Seleccionar en el desplegable cuantos trabajadores necesitaremos ese dia.</div>
+            <ul>
+                <li>Rellenar los campos con los números de los empleados separados por guiones.</li>
+                <li>Seleccionar en el desplegable cuantos trabajadores necesitaremos ese dia.</li>
+                <li>El programa hará un reparto equitativo de los días a trabajar.</li>
+                <li>Podremos descargarnos los datos en un archivo de Excel.</li>
+            </ul>
         </div>
     );
 };
