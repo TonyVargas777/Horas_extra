@@ -27,15 +27,15 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: center; 
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 
   /* Imagen de fondo */
   background-image: url('../public/ford_t.jpg'); /* Cambia la ruta de la imagen */
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover; 
+  background-attachment: fixed; 
 }
 
 /* Caja de contenido con fondo semitransparente */
