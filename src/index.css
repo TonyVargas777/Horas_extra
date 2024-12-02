@@ -34,9 +34,8 @@ body {
 
   /* Imagen de fondo */
   background-image: url('../public/ford_t.jpg'); /* Cambia la ruta de la imagen */
-  background-repeat: repeat;
-  background-position: center center;
-  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Caja de contenido con fondo semitransparente */
